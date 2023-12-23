@@ -1,6 +1,6 @@
 # Word of the day
-
-This is a simple widget application for Macos displaying today's Persian date like a widget and also in the menubar.
+![Screenshot](http://github.com/callmearta/word-of-the-day/blob/main/screenshot.jpg?raw=truescreenshot.png)
+This is a simple widget application for Macos displaying one word per day with it's description. Data is fetched from Dictionary.com
 
 ## How to install?
 
