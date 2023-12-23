@@ -1,5 +1,6 @@
 # Word of the day
 ![Screenshot](http://github.com/callmearta/word-of-the-day/blob/main/screenshot.png?raw=true)
+\n
 This is a simple widget application for Macos displaying one word per day with it's description. Data is fetched from Dictionary.com
 
 ## How to install?
