@@ -1,0 +1,27 @@
+{
+  "name": "wordday",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tauri-plugin-window-state-api": "github:tauri-apps/tauri-plugin-window-state#v1"
+  },
+  "devDependencies": {
+    "@tauri-apps/api": "^1.5.3",
+    "@tauri-apps/cli": "^1.5.7",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.4"
+  }
+}

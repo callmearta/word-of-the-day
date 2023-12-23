@@ -1,0 +1,28 @@
+[package]
+name = "wordday"
+version = "0.0.0"
+description = "A simple menubar and widget application for displaying current date in Persian calendar"
+authors = ["callmearta"]
+license = ""
+repository = ""
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+tauri-build = { version = "1.5", features = [] }
+
+[dependencies]
+tauri = { version = "1.5", features = [ "http-all", "system-tray", "macos-private-api", "window-close", "window-minimize", "window-hide", "window-unminimize", "window-unmaximize", "window-maximize", "window-show", "window-start-dragging", "shell-open"] }
+serde = { version = "1.0", features = ["derive"] }
+tauri-plugin-window-state = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
+serde_json = "1.0"
+time = "0.1"
+window-vibrancy = "0.4.3"
+chrono = "0.4.31"
+fix-path-env = { git = "https://github.com/tauri-apps/fix-path-env-rs" }
+
+[features]
+# this feature is used for production builds or when `devPath` points to the filesystem
+# DO NOT REMOVE!!
+custom-protocol = ["tauri/custom-protocol"]
